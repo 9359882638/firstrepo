@@ -1,7 +1,5 @@
-let age = 19;
+const body = document.querySelector("body");
 
-function addition(a, b) {
-console.log(a + b);
-}
-
-addition(12, 12);
+let btn = document.createElement("button");
+btn.innerText = "click me";
+body.append(btn);
